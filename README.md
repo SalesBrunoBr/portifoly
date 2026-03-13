@@ -1,1 +1,130 @@
-# portifoly
+Portifolio
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfólio | Bruno Sales</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<header class="menu">
+
+<h2 class="logo">Bruno Sales</h2>
+
+<nav>
+
+<a href="#sobre">Sobre</a>
+<a href="#projetos">Projetos</a>
+<a href="#contato">Contato</a>
+
+</nav>
+
+</header>
+
+
+
+<section class="apresentacao">
+
+<div class="texto">
+
+<h1>Olá, eu sou <span>Bruno Sales</span></h1>
+
+<p>
+Desenvolvedor Front-end em aprendizado.
+Estou estudando HTML, CSS e futuramente JavaScript
+para criar interfaces modernas e profissionais.
+</p>
+
+<div class="botoes">
+
+<a href="https://www.instagram.com/brunao_sales/" target="_blank" class="btn instagram">
+Instagram
+</a>
+
+<a href="https://github.com/SalesBrunoBr" target="_blank" class="btn github">
+GitHub
+</a>
+
+</div>
+
+</div>
+
+
+<div class="foto">
+
+<img src="foto.png" alt="Foto Bruno">
+
+</div>
+
+</section>
+
+
+
+<section id="sobre" class="sobre">
+
+<h2>Sobre mim</h2>
+
+<p>
+Aqui você pode escrever sobre sua história,
+seus estudos, cursos e objetivos na área de tecnologia.
+</p>
+
+</section>
+
+
+
+<section id="projetos" class="projetos">
+
+<h2>Projetos</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Projeto 1</h3>
+<p>Descrição do seu projeto.</p>
+</div>
+
+<div class="card">
+<h3>Projeto 2</h3>
+<p>Descrição do seu projeto.</p>
+</div>
+
+<div class="card">
+<h3>Projeto 3</h3>
+<p>Descrição do seu projeto.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="contato" class="contato">
+
+<h2>Contato</h2>
+
+<p>Email: seuemail@email.com</p>
+
+</section>
+
+
+
+<footer>
+
+<p>© 2026 - Bruno Sales</p>
+
+</footer>
+
+</body>
+</html>
